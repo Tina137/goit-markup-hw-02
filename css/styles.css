@@ -5,7 +5,6 @@ body {
 }
 ul {
   list-style-type: none;
-  /* padding: 0; */
 }
 /* !!!!!!!!!!!!!!!!!!HEADER!!!!!!!!!!!!!!!!!!! */
 .logo {
@@ -32,10 +31,8 @@ span {
 .header-link:active {
   color: #404bbf;
 }
-.header-link:active {
+.header-link:focus {
   color: #404bbf;
-  /* border-bottom: 4px solid #404bbf; */
-  /* border-radius: 2px; */
 }
 .contacts {
   font-style: normal;
@@ -50,7 +47,7 @@ span {
 .header-contact:hover {
   color: #404bbf;
 }
-.header-contact:active {
+.header-contact:focus {
   color: #404bbf;
 }
 /* !!!!!!!!!!!!!!!!!!HERO!!!!!!!!!!!!!!!!!!! */
@@ -73,32 +70,32 @@ span {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
-  border: none;
-  /* border-radius: 4px; */
-  /* padding: 16px 32px; */
   cursor: pointer;
 }
 .hero-button:hover {
   background-color: #404bbf;
 }
-.hero-button:active {
+.hero-button:focus {
   background-color: #404bbf;
 }
 /* !!!!!!!!!!!!!!!!!!SECTIONS!!!!!!!!!!!!!!!!!!! */
 /* .first-section_name {
-  display: none;
 } */
-.secondSection {
+.second-section {
   background-color: #f4f4fd;
   text-align: center;
 }
-h2 {
+.card {
+  background-color: #ffffff;
+}
+.section-name {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
-  line-height: 1.2;
+  line-height: 1.11;
   text-align: center;
+  text-transform: capitalize;
 }
 .title {
   font-weight: 500;
@@ -125,4 +122,5 @@ footer span {
   letter-spacing: 2%;
   line-height: 24px;
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
